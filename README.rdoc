@@ -1,2 +1,2 @@
-Simple statistic project for "Advanced Web Tecgnologies" course __
+Simple statistic project for "Advanced Web Tecgnologies" \n
 burkay Pehlivan
