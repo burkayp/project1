@@ -1,2 +1,6 @@
-Simple statistic project for "Advanced Web Tecgnologies" \n
+Simple statistic project for "Advanced Web Tecgnologies"
+
+
+
+
 burkay Pehlivan
