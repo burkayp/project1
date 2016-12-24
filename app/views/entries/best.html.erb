@@ -1,0 +1,26 @@
+<div class="header">
+    <div class="container">
+        <img src="https://www.pepper.com/assets/images/landing/icon-hero.png">
+        <h1>Messenger</h1>
+    </div>
+</div>
+
+<div class="messages">
+    <div class="container">
+        <div class="message">
+            <p class="content">
+                <%= @best.content %>
+                    | fav:
+                    <%= @best.fav %>
+            </p>
+            <p class="time">
+                <%= @best.created_at %>
+            </p>
+            <p class="time">
+                <%= @best.entryNo %>
+            </p>
+        </div>
+        <%= link_to  "thread","index" %>
+            <%= link_to  "favorites","favorites" %>
+    </div>
+</div>

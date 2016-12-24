@@ -1,0 +1,28 @@
+<div class="header">
+    <div class="container">
+        <img src="https://www.pepper.com/assets/images/landing/icon-hero.png">
+        <h1>Messenger</h1>
+    </div>
+</div>
+
+<div class="messages">
+    <div class="container">
+        <% @entries.each do |entry| %>
+            <div class="message">
+                <p class="content">
+                    <%= entry.content %>
+                        | fav:
+                        <%= entry.fav %>
+                </p>
+                <p class="time">
+                    <%= entry.created_at %>
+                </p>
+                <p class="time">
+                    <%= entry.entryNo %>
+                </p>
+            </div>
+            <% end %>
+                <%= link_to  "favorites","favorites" %>
+                    <%= link_to  "best","best" %>
+    </div>
+</div>
