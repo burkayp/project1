@@ -3,4 +3,4 @@ Simple statistic project for "Advanced Web Tecgnologies"
 
 
 
-burkay Pehlivan
+Burkay Pehlivan
